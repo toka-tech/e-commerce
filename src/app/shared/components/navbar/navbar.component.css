@@ -1,0 +1,86 @@
+.navbar {
+  height: 4rem;
+  background-color: #921A40 !important;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999
+}
+
+.navbar-brand {
+  color: rgb(247, 191, 191) !important;
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+  font-size: 2rem;
+}
+
+
+
+
+.dropdown-item:hover {
+  background-color: #ffcccc;
+}
+
+.list {
+  position: fixed;
+  right: 1rem;
+  justify-content: end;
+  gap: 1rem;
+  width: 70%
+}
+
+.nav-link:hover,
+.active {
+  color: rgb(242, 148, 148) !important;
+
+}
+
+.nav-link:focus {
+  background: #d4afaf;
+  color: #921A40 !important;
+  border-radius: 2rem;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+}
+
+li a {
+  cursor: pointer;
+  font-size: 22px;
+  color: #fae5e5;
+  text-decoration: none;
+}
+
+@media (max-width: 995px) {
+  .navbar-collapse ul {
+    background: #a94263 !important;
+    padding: 1rem;
+    width: 100% !important;
+    text-align: center;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    /* Hide content when collapsed */
+    transition: height 0.5s ease-in-out, transform 0.5s ease-in-out;
+    transform: translateY(-1%);
+    /* Slightly hide the navbar */
+    z-index: 999;
+  }
+
+  ul {
+    background: #f6edea !important;
+
+  }
+}

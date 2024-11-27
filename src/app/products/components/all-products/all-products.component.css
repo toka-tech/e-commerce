@@ -1,0 +1,20 @@
+.productsContainer {
+  padding: auto
+}
+
+.both {
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 1rem;
+  border: 2px solid #921A40;
+}
+
+.box {
+  margin: 2rem !important;
+  margin-top: 4rem !important;
+
+}
+
+h1 {
+  color: #921A40 !important
+}
